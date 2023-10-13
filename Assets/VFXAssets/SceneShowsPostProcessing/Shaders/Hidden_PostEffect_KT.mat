@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden_PostEffect_KT
+  m_Shader: {fileID: 4800000, guid: 59c06b55e9033ca4d9d308a54b99e0f0, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _TriPlaneMap:
+        m_Texture: {fileID: 2800000, guid: 3c3b341fe87698f4198a4c9d90df17e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _EnvBridPostAmount: 0.802
+    - _FadeHardness: 1
+    - _FadeWidth: 0
+    - _Interval: 10
+    - _LerpMax: 20
+    - _LerpMin: -12
+    - __dirty: 0
+    - _falloff: 8
+    m_Colors:
+    - _BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+    - _LineColor: {r: 1, g: 0, b: 0, a: 0}
+    - _Vector0: {r: 0.2, g: 2, b: 0, a: 0}
+    - _normalScale: {r: 1, g: 1, b: 1, a: 0}
+    - _tilling: {r: 2, g: 2, b: 0, a: 0}
+  m_BuildTextureStacks: []

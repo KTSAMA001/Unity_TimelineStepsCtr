@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Barrel
+  m_Shader: {fileID: 4800000, guid: 977ce85d64e1849409668a559c7d1c4d, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _AD_CUTOUT_STANDARD_SOURCE_CUSTOM_MAP
+  - _AD_EDGE_BASE_SOURCE_CUTOUT_STANDARD
+  - _AD_STATE_ENABLED
+  m_InvalidKeywords:
+  - _AD_CUTOUT_GEOMETRIC_COUNT_ONE
+  - _AD_CUTOUT_GEOMETRIC_TYPE_NONE
+  - _AD_CUTOUT_STANDARD_SOURCE_MAPS_MAPPING_TYPE_DEFAULT
+  - _AD_EDGE_ADDITIONAL_COLOR_NONE
+  - _AD_EDGE_UV_DISTORTION_SOURCE_DEFAULT
+  - _AD_GLOBAL_CONTROL_ID_NONE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AdvancedDissolveCutoutStandardMap1:
+        m_Texture: {fileID: 2800000, guid: 15156bfb2d3680b42b640ccf7d864400, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AdvancedDissolveCutoutStandardMap2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AdvancedDissolveCutoutStandardMap3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AdvancedDissolveEdgeAdditionalColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AdvancedDissolveEdgeUVDistortionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: e09ac9c680d0bb443822bb380d520e6d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AdvancedDissolveCutoutGeometric1Height: 1
+    - _AdvancedDissolveCutoutGeometric1Radius: 1
+    - _AdvancedDissolveCutoutGeometric2Height: 1
+    - _AdvancedDissolveCutoutGeometric2Radius: 1
+    - _AdvancedDissolveCutoutGeometric3Height: 1
+    - _AdvancedDissolveCutoutGeometric3Radius: 1
+    - _AdvancedDissolveCutoutGeometric4Height: 1
+    - _AdvancedDissolveCutoutGeometric4Radius: 1
+    - _AdvancedDissolveCutoutGeometricInvert: 0
+    - _AdvancedDissolveCutoutGeometricNoise: 0.1
+    - _AdvancedDissolveCutoutGeometricXYZAxis: 0
+    - _AdvancedDissolveCutoutGeometricXYZRollout: 0
+    - _AdvancedDissolveCutoutGeometricXYZSpace: 0
+    - _AdvancedDissolveCutoutGeometricXYZStyle: 0
+    - _AdvancedDissolveCutoutStandardBaseInvert: 0
+    - _AdvancedDissolveCutoutStandardClip: 0
+    - _AdvancedDissolveCutoutStandardMap1Channel: 3
+    - _AdvancedDissolveCutoutStandardMap1Intensity: 1
+    - _AdvancedDissolveCutoutStandardMap1Invert: 0
+    - _AdvancedDissolveCutoutStandardMap2Channel: 3
+    - _AdvancedDissolveCutoutStandardMap2Intensity: 1
+    - _AdvancedDissolveCutoutStandardMap2Invert: 0
+    - _AdvancedDissolveCutoutStandardMap3Channel: 3
+    - _AdvancedDissolveCutoutStandardMap3Intensity: 1
+    - _AdvancedDissolveCutoutStandardMap3Invert: 0
+    - _AdvancedDissolveCutoutStandardMapsBlendType: 0
+    - _AdvancedDissolveCutoutStandardMapsScreenSpaceUVScale: 0
+    - _AdvancedDissolveCutoutStandardMapsTriplanarMappingSpace: 0
+    - _AdvancedDissolveEdgeAdditionalColorAlphaOffset: 0
+    - _AdvancedDissolveEdgeAdditionalColorClipInterpolation: 0
+    - _AdvancedDissolveEdgeAdditionalColorMapMipmap: 1
+    - _AdvancedDissolveEdgeAdditionalColorMapReverse: 0
+    - _AdvancedDissolveEdgeAdditionalColorPhaseOffset: 0
+    - _AdvancedDissolveEdgeAdditionalColorTransparency: 1
+    - _AdvancedDissolveEdgeBaseColorTransparency: 1
+    - _AdvancedDissolveEdgeBaseShape: 0
+    - _AdvancedDissolveEdgeBaseWidthGeometric: 0.1
+    - _AdvancedDissolveEdgeBaseWidthStandard: 0.1
+    - _AdvancedDissolveEdgeGIMetaPassMultiplier: 1
+    - _AdvancedDissolveEdgeUVDistortionStrength: 0
+    - _AdvancedDissolveKeywordCutoutGeometricCount: 0
+    - _AdvancedDissolveKeywordCutoutGeometricType: 0
+    - _AdvancedDissolveKeywordCutoutStandardSource: 2
+    - _AdvancedDissolveKeywordCutoutStandardSourceMapsMappingType: 0
+    - _AdvancedDissolveKeywordEdgeAdditionalColorSource: 0
+    - _AdvancedDissolveKeywordEdgeBaseSource: 1
+    - _AdvancedDissolveKeywordEdgeUVDistortionSource: 0
+    - _AdvancedDissolveKeywordGlobalControlID: 0
+    - _AdvancedDissolveKeywordState: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _AdvancedDissolveBakedKeywords: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutGeometric1Normal: {r: 1, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutGeometric1Position: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutGeometric2Normal: {r: 1, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutGeometric2Position: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutGeometric3Normal: {r: 1, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutGeometric3Position: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutGeometric4Normal: {r: 1, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutGeometric4Position: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutGeometricXYZPosition: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutStandardMap1Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutStandardMap1Scroll: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutStandardMap1Tiling: {r: 1, g: 1, b: 1, a: 0}
+    - _AdvancedDissolveCutoutStandardMap2Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutStandardMap2Scroll: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutStandardMap2Tiling: {r: 1, g: 1, b: 1, a: 0}
+    - _AdvancedDissolveCutoutStandardMap3Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutStandardMap3Scroll: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutStandardMap3Tiling: {r: 1, g: 1, b: 1, a: 0}
+    - _AdvancedDissolveEdgeAdditionalColor: {r: 1, g: 0, b: 0, a: 1}
+    - _AdvancedDissolveEdgeAdditionalColorIntensity: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveEdgeAdditionalColorMapOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveEdgeAdditionalColorMapScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveEdgeAdditionalColorMapTiling: {r: 1, g: 1, b: 1, a: 0}
+    - _AdvancedDissolveEdgeBaseColor: {r: 0.15400212, g: 0.9433962, b: 0.0800997, a: 1}
+    - _AdvancedDissolveEdgeBaseColorIntensity: {r: 2, g: 6.389056, b: 0, a: 0}
+    - _AdvancedDissolveEdgeUVDistortionMapOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveEdgeUVDistortionMapScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveEdgeUVDistortionMapTiling: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
